@@ -5,8 +5,12 @@
 }
 main {
   background-color: #eee;
+  
 }
 
+main .container:nth-child(1) {
+  padding-top: 4vh;
+}
 #navRight {
   flex-basis: 40%; justify-content: space-between;
 }
@@ -30,12 +34,52 @@ form .form-control:focus{
 
 .article img {
   width: 100%;
-  border-radius: 30px;
+  /* border-radius: 30px; */
+ 
   
 }
+
 .article {
   background-color: white;
   border-radius: 30px;
   margin-bottom: 4vh;
-  padding: 4vw
+  padding: 4vw;
+  
+}
+.article-flex {
+  display: flex;
+  justify-content: space-between  ;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.img-con {
+  flex-basis: 30%;
+}
+.content-con {
+  flex-basis: 65%;
+  
+
+}
+#categories {
+  text-transform: capitalize;
+
+}
+#categories a {
+  text-decoration: none;
+  margin-right: 16px;
+}
+#title {
+  text-transform: uppercase;
+  
+}
+.title {
+  box-sizing: border-box !important;
+  
+  background-color: white;
+  border-radius: 30px;
+  margin-bottom: 4vh;
+  
+  width: 36%;
+  padding: 0.5vw;
+  text-align: center;
 }
