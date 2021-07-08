@@ -5,11 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CoderNews</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0b70beae68.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container d-flex">
+            <a class="navbar-brand">CoderNews</a>
+            <div id="navRight" class="d-flex">
+                <div class="dropdown">
+                    <a class="btn btn-outline-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    Languages
+                    </a>
+                
+                    <ul id="languages" class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    
+                    </ul>
+                </div>
+    
+                <div>
+                    <form class="d-flex">
+                        <input type="text" class="form-control" placeholder="Type to search for an article">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                      </form>
+                </div>
+            </div>
+        
+           
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div id="categories" class="col">
+                    
+                   
+                </div>
+            </div>
+            <div class="row">
+                <div id="articles" class="col">
+                   
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
     <p>I have to be honest, I didn't work hard enough yesterday so I wasn't on a same page with everyone during today's session.  I need more time to read through the documentations and watch lesson videos again</p>
     <p>I apologize, I've been very slow since week2. I'm gonna work really hard tonight and hopefully I would be able to deliver the assignment by tommorrow lesson so I could once again enjoy the fun of coding.</p>
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="news.js"></script>
+    <script src="languages.js"></script>
 </body>
 </html>

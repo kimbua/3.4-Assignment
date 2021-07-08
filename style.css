@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+main {
+  background-color: #eee;
+}
+
+#navRight {
+  flex-basis: 40%; justify-content: space-between;
+}
+input {
+  margin-right: 16px;
+}
+form .form-control:focus{
+    border-color: #ced4da;
+    box-shadow: none;
+  }
+.dropdown-item:active {
+    background-color: #ced4da;
+    }
+.dropdown-item {
+  text-transform: uppercase;
+}
+#categories {
+  justify-content: flex-start;
+  flex-wrap: wrap;  
+}
+
+.article img {
+  width: 100%;
+  border-radius: 30px;
+  
+}
+.article {
+  background-color: white;
+  border-radius: 30px;
+  margin-bottom: 4vh;
+  padding: 4vw
+}
